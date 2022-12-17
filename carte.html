@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- LIEN EN LIGNE VERS BOOTSTRAP 4.4
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.4.1/dist/css/bootstrap.css"><!-- LIEN LOCAL VERS BOOTSTRAP 4.4
+-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tous à table</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-logo">
+            <div class="container d-flex justify-content-center align-items-center">
+                <img src="images/logo-tous-a-table-le-mans.png" class="logo" alt="logo">
+            </div>
+            
+            <!--Barre de navigation-->
+            <nav class="row navbar navbar-expand">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav w-100 col-8 d-flex justify-content-around align-items-center offset-2">
+                        <a class="nav-item nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="carte.html">Carte</a>
+                        <a class="nav-item nav-link" href="restaurant.html">Le restaurant</a>
+                        <a class="nav-item nav-link" href="evenements.html">Evènements</a>
+                        <a class="nav-item nav-link" href="infos_contact.html">Infos&contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            
+        <!--Menus-->
+        <section class="carte">
+            <div class="accordion" id="menus">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne-menus">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne-menus" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne-menus">
+                        Menus
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne-menus" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menu1-300x300.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu entrée / plat / dessert</h5>
+                                    <p>Assiette charcuterie, brochette frites, délice meringué</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menu1-300x300.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu entrée / plat / dessert</h5>
+                                    <p>Assiette charcuterie, brochette frites, délice meringué</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menu1-300x300.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu entrée / plat / dessert</h5>
+                                    <p>Assiette charcuterie, brochette frites, délice meringué</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menu1-300x300.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu entrée / plat / dessert</h5>
+                                    <p>Assiette charcuterie, brochette frites, délice meringué</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo-menus">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo-menus" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo-menus">
+                        Menu enfant
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo-menus" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menuEnfant-300x300.jpg" class="card-img-top" alt="Menu Enfant">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu Enfant</h5>
+                                    <p>Burger, frites + Dessert du jour au choix</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menuEnfant-300x300.jpg" class="card-img-top" alt="Menu Enfant">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu Enfant</h5>
+                                    <p>Burger, frites + Dessert du jour au choix</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menuEnfant-300x300.jpg" class="card-img-top" alt="Menu Enfant">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu Enfant</h5>
+                                    <p>Burger, frites + Dessert du jour au choix</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/menuEnfant-300x300.jpg" class="card-img-top" alt="Menu Enfant">
+                                <div class="card-body">
+                                    <h5 class="card-text">Menu Enfant</h5>
+                                    <p>Burger, frites + Dessert du jour au choix</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--À la carte-->
+            <h2 class="h2_perso">À la carte</h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne-carte" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne-carte">
+                        Entrées
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne-carte" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/entree.jpg" class="card-img-top" alt="Entrée">
+                                <div class="card-body">
+                                    <h5 class="card-text">Entrée</h5>
+                                    <p>Foie gras de canard cuit au torchon au poivre de Penja chutney du moment, dentelle au miel et toasts de pain brioché</p>
+                                </div>
+                            </div>
+      
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/entree.jpg" class="card-img-top" alt="Entrée">
+                                <div class="card-body">
+                                    <h5 class="card-text">Entrée</h5>
+                                    <p>Foie gras de canard cuit au torchon au poivre de Penja chutney du moment, dentelle au miel et toasts de pain brioché</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/entree.jpg" class="card-img-top" alt="Entrée">
+                                <div class="card-body">
+                                    <h5 class="card-text">Entrée</h5>
+                                    <p>Foie gras de canard cuit au torchon au poivre de Penja chutney du moment, dentelle au miel et toasts de pain brioché</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/entree.jpg" class="card-img-top" alt="Entrée">
+                                <div class="card-body">
+                                    <h5 class="card-text">Entrée</h5>
+                                    <p>Foie gras de canard cuit au torchon au poivre de Penja chutney du moment, dentelle au miel et toasts de pain brioché</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo-carte" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo-carte">
+                        Plats
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo-carte" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/plat.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Plat</h5>
+                                    <p>Filet de perche en sauce et petits paniers de légumes</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/plat.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Plat</h5>
+                                    <p>Filet de perche en sauce et petits paniers de légumes</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/plat.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Plat</h5>
+                                    <p>Filet de perche en sauce et petits paniers de légumes</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/plat.jpg" class="card-img-top" alt="Menu entrée / plat / dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Plat</h5>
+                                    <p>Filet de perche en sauce et petits paniers de légumes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree-carte" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree-carte">
+                        Desserts
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree-carte" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/dessert-bananas.jpg" class="card-img-top" alt="Dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Dessert</h5>
+                                    <p>Moelleux chocolat banane</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/dessert-bananas.jpg" class="card-img-top" alt="Dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Dessert</h5>
+                                    <p>Moelleux chocolat banane</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/dessert-bananas.jpg" class="card-img-top" alt="Dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Dessert</h5>
+                                    <p>Moelleux chocolat banane</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/dessert-bananas.jpg" class="card-img-top" alt="Dessert">
+                                <div class="card-body">
+                                    <h5 class="card-text">Dessert</h5>
+                                    <p>Moelleux chocolat banane</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--Cave et boissons-->
+            <h2 class="h2_perso">Cave et boissons</h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne-boissons" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne-boissons">
+                        Apéritifs
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne-boissons" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boisson-cocktail-bleu.png" class="card-img-top" alt="Cocktail">
+                                <div class="card-body">
+                                    <h5 class="card-text">Cocktail</h5>
+                                    <p>Cocktail</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boisson-cocktail-bleu.png" class="card-img-top" alt="Cocktail">
+                                <div class="card-body">
+                                    <h5 class="card-text">Cocktail</h5>
+                                    <p>Cocktail</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boisson-cocktail-bleu.png" class="card-img-top" alt="Cocktail">
+                                <div class="card-body">
+                                    <h5 class="card-text">Cocktail</h5>
+                                    <p>Cocktail</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boisson-cocktail-bleu.png" class="card-img-top" alt="Cocktail">
+                                <div class="card-body">
+                                    <h5 class="card-text">Cocktail</h5>
+                                    <p>Cocktail</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo-boissons" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo-boissons">
+                        Vins
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo-boissons" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-vin.png" class="card-img-top" alt="Vin">
+                                <div class="card-body">
+                                    <h5 class="card-text">Vin</h5>
+                                    <p>Vin</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-vin.png" class="card-img-top" alt="Vin">
+                                <div class="card-body">
+                                    <h5 class="card-text">Vin</h5>
+                                    <p>Vin</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-vin.png" class="card-img-top" alt="Vin">
+                                <div class="card-body">
+                                    <h5 class="card-text">Vin</h5>
+                                    <p>Vin</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-vin.png" class="card-img-top" alt="Vin">
+                                <div class="card-body">
+                                    <h5 class="card-text">Vin</h5>
+                                    <p>Vin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree-boissons" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree-boissons">
+                        Bières
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree-boissons" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-biere-pression.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Bière</h5>
+                                    <p>Bière</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-biere-pression.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Bière</h5>
+                                    <p>Bière</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-biere-pression.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Bière</h5>
+                                    <p>Bière</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-biere-pression.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Bière</h5>
+                                    <p>Bière</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour-boissons" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour-boissons">
+                        Champagne
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour-boissons" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-champagne.png" class="card-img-top" alt="Champagne">
+                                <div class="card-body">
+                                    <h5 class="card-text">Champagne</h5>
+                                    <p>Champagne</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-champagne.png" class="card-img-top" alt="Champagne">
+                                <div class="card-body">
+                                    <h5 class="card-text">Champagne</h5>
+                                    <p>Champagne</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-champagne.png" class="card-img-top" alt="Champagne">
+                                <div class="card-body">
+                                    <h5 class="card-text">Champagne</h5>
+                                    <p>Champagne</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-champagne.png" class="card-img-top" alt="Champagne">
+                                <div class="card-body">
+                                    <h5 class="card-text">Champagne</h5>
+                                    <p>Champagne</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive-boissons" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive-boissons">
+                        Eaux et sodas
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive-boissons" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-evian.png" class="card-img-top" alt="Evian">
+                                <div class="card-body">
+                                    <h5 class="card-text">Evian</h5>
+                                    <p>Bouteille 50cl eau plate</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-perrier.png" class="card-img-top" alt="Perrier">
+                                <div class="card-body">
+                                    <h5 class="card-text">Perrier</h5>
+                                    <p>Bouteille 50cl eau pétillante</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-volvic-citron.png" class="card-img-top" alt="Volvic citron">
+                                <div class="card-body">
+                                    <h5 class="card-text">Volvic citron</h5>
+                                    <p>Bouteille 50cl eau plate citronnée</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-coca0.png" class="card-img-top" alt="Coca-Cola Zéro">
+                                <div class="card-body">
+                                    <h5 class="card-text">Coca-Cola Zéro</h5>
+                                    <p>Canette 33cl</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix-boissons" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree-boissons">
+                        Boissons chaudes
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix-boissons" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="accordion-body d-flex justify-content-around">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-cafe.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Café</h5>
+                                    <p>Café</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-cafe.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Café</h5>
+                                    <p>Café</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-cafe.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Café</h5>
+                                    <p>Café</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/boissons-cafe.png" class="card-img-top" alt="Bière">
+                                <div class="card-body">
+                                    <h5 class="card-text">Café</h5>
+                                    <p>Café</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <div class="footer">
+            <div class="row d-flex justify-content-around">
+                <div class="col-3">
+                    <h5>HORAIRES</h5>
+                    <p>
+                        Lundi : 12h–14h, 19h–23h
+                        <br/>
+                        Mardi : 12h–14h, 19h–22h
+                        <br/>
+                        Mercredi : 12h–14h, 19h–22h
+                        <br/>
+                        Jeudi : 12h–14h, 19h–22h
+                        <br/>
+                        Vendredi : 12h–14h, 19h–23h
+                        <br/>
+                        Samedi : 12h–14h, 19h–23h
+                        <br/>
+                        Dimanche : fermé
+                    </p>
+                </div>
+                <div class="col-6">
+                    <h5 class="text-center">Suivez-nous</h5>
+                    <div class="d-flex justify-content-center">
+                        <a href=""><img class="mt-4 ml-1 mr-1" src="/images/reseau-facebook.png" alt="Lien vers Facebook"></a>
+                        <a href=""><img class="mt-4 ml-1 mr-1" src="/images/reseau-twitter.png" alt="Lien vers Twitter"></a>
+                        <a href=""><img class="mt-4 ml-1 mr-1" src="/images/reseau-instagram.png" alt="Lien vers Instagram"></a>
+                        </div>
+                    <div class="d-flex justify-content-center">
+                        <img class="mt-4 ml-1 mr-1" src="/images/flag-fr.png" alt="Nous parlons le français">
+                        <img class="mt-4 ml-1 mr-1" src="/images/flag-gb.png" alt="Nous parlons l'anglais">
+                        <img class="mt-4 ml-1 mr-1" src="/images/flag-de.png" alt="Nous parlons l'allemand">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5>Adresse</h5>
+                    <p>
+                        X Place de la comédie
+                        <br/>
+                        57000 METZ
+                    </p>
+                    <br/>
+                    <h5>Contacter-nous</h5>
+                    <p>
+                        <a href="tous-a-table@gmail.com">contact@tous-a-table-metz.fr</a>
+                        <br/>
+                        +33 3 8X XX XX XX
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> <!--fin container-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
